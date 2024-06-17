@@ -1,0 +1,1 @@
+This is a scalable microservices application, using Java Spring boot. For it, 3 independent microservices were created with the following DB: Postgres, MySQL. Modularity was also used to keep the code cleaner, it is running on docker compose. APIs were validated with Postman
