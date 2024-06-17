@@ -1,4 +1,4 @@
-package com.juanpabloleal.orders_service.model.dtos;
+package com.juanpabloleal.inventory_service.model.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class OrderItemRequest {
+
 
     private Long id;
     private String sku;

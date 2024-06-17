@@ -17,10 +17,7 @@ public class OrderController {
     @ResponseStatus(HttpStatus.CREATED)
     public String placeOrder(@RequestBody OrderRequest orderRequest){
         this.orderService.placeOrder(orderRequest);
-
-        return "Oder placed successfully";
+        return "Order placed successfully";
 
     }
-
-
 }

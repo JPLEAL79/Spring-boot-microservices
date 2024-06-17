@@ -30,7 +30,7 @@ services:
     expose:
       - 3306
 
-    ### Posgres database for Products
+    ### Postgres database for Products
   db-products:
      container_name: db-products
      image: postgres:15.2
